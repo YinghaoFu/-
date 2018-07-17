@@ -9,3 +9,5 @@ stack.js    栈的实现。
 queue.js    单链队列。
 
 sqQueue.js  循环队列。
+
+linkList.js 单向链表。
