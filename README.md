@@ -13,3 +13,7 @@ sqQueue.js  循环队列。
 linkList.js 单向链表。
 
 move100step.js 走100步台阶。
+
+runyifeng_quickSort.js 阮一峰快速排序
+
+

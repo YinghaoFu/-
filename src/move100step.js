@@ -1,13 +1,12 @@
-function move(step){
-    if (step == 1) {
-        return 1
-    } else if (step == 2) {
-        return 2
-    } else if (step == 3) {
-        return 4
-    } else {
-        return move(step - 1) + move(step - 2) + move(step - 3)
+function fib(n) {
+    let array = new Array(n + 1).fill(null)
+    array[0] = 1
+    array[1] = 2
+    array[2] = 4
+    for (let i = 3; i <= n-1; i++) {
+      array[i] = array[i - 1] + array[i - 2]+array[i - 3]
     }
-}
-
-console.log(move(50));
+    return array[n-1]
+  }
+ console.log(fib(100));
+ 
