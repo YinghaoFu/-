@@ -1,4 +1,4 @@
-// 有序二叉树的实现
+// 有序二叉树的实现①
 
 function BinaryTree() {
     var Node = function (key) {
@@ -20,7 +20,7 @@ function BinaryTree() {
             if (node.right === null) {
                 node.right = newNode;
             } else {
-                insertNode(node.right, newNode);
+                insertNode(node.right, newNode);    
             }
         }
     }

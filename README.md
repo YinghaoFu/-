@@ -11,3 +11,5 @@ queue.js    单链队列。
 sqQueue.js  循环队列。
 
 linkList.js 单向链表。
+
+move100step.js 走100步台阶。
